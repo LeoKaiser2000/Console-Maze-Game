@@ -7,13 +7,14 @@ namespace Homework_2_Labyrinth_LeoKaiser.MazeGame.Scenes
 {
     public class MazeResolveScene : IScene
     {
+        private const string SceneName = "MazeResolveScene";
+        
         private const string EnteringRoomMessage = "You arrived in room:";
-        private const string LinkedRoomMessage = "In front of you, a panel, showing the connected rooms";
+        private const string LinkedRoomMessage = "In front of you, a panel, showing the connected rooms.";
         private const string QuestionMessage = "Which room would you like to enter ?";
         private const string NumberMoveMessage = "You reached the exit in";
-        private const string BestSolutionFindMessage = "Congratulation, you did it in the fiewest moves";
+        private const string BestSolutionFindMessage = "Congratulation, you did it in the fiewest moves !";
         private const string BestSolutionMessage = "The best solution was";
-        private const string SceneName = "MazeResolveScene";
         private readonly string[] _continuePossibilities = { "Select another level", "Back to menu"};
         private const string ContinueQuestion = "Do you want to play another level ?";
         private const string InvalidMazeMessage = "Impossible to build maze.";
@@ -69,11 +70,11 @@ namespace Homework_2_Labyrinth_LeoKaiser.MazeGame.Scenes
 
         private void LevelComplete()
         {
-            Console.WriteLine($"{NumberMoveMessage} {_moveNumber} move");
+            Console.WriteLine($"{NumberMoveMessage} {_moveNumber} move.");
             if (_moveNumber == _bestSolution.Count - 1)
                 Console.WriteLine(BestSolutionFindMessage);
             else if (_moveNumber > _bestSolution.Count - 1)
-                Console.WriteLine($"{BestSolutionMessage} {string.Join(" => ", _bestSolution.Select(room => room.Name))}");
+                Console.WriteLine($"{BestSolutionMessage} {string.Join(" => ", _bestSolution.Select(room => room.Name))}.");
             _sceneManager.PopScene();
             switch (ConsoleInterpreter.AskToUserWithNumber(ContinueQuestion, _continuePossibilities))
             {
@@ -87,7 +88,7 @@ namespace Homework_2_Labyrinth_LeoKaiser.MazeGame.Scenes
 
         private void PlayerTurn()
         {
-            Console.WriteLine($"{EnteringRoomMessage} {_playerPosition.Name}");
+            Console.WriteLine($"{EnteringRoomMessage} {_playerPosition.Name}.");
             var question = LinkedRoomMessage + Environment.NewLine + QuestionMessage;
             var possibilities  = _playerPosition.ConnectedRooms.Select(room => room.Name);
             var userAnswer = ConsoleInterpreter.AskToUserWithNumber(question, possibilities.ToList());
