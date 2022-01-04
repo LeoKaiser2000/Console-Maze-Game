@@ -1,0 +1,15 @@
+#start-Entry_Of_Labyrinth
+#end-Garden_Of_Pain
+Entry_Of_Labyrinth - Hall_Of_Infinity,Cellar_Of_Darkness,Room_Of_Living_Armor
+Hall_Of_Infinity - Entry_Of_Labyrinth,Room_Of_Echos,Dinning_Of_King,Swamp_Of_Solitude
+Cellar_Of_Darkness - Entry_Of_Labyrinth,Catacombs_Of_Horror,Tomb_Of_King,Room_Of_Living_Armor
+Room_Of_Echos - Hall_Of_Infinity,Crystal_Of_Teleportation,Room_Of_Living_Armor
+Dinning_Of_King - Hall_Of_Infinity,Library_Of_Knowledge,Prison_Of_Eternal_Dragon
+Catacombs_Of_Horror - Cellar_Of_Darkness,Garden_Of_Pain,Swamp_Of_Solitude
+Tomb_Of_King - Cellar_Of_Darkness,Room_Of_Living_Armor
+Crystal_Of_Teleportation - Room_Of_Echos,Room_Of_Living_Armor
+Room_Of_Living_Armor - Room_Of_Echos,Entry_Of_Labyrinth,Cellar_Of_Darkness,Tomb_Of_King,Crystal_Of_Teleportation,Prison_Of_Eternal_Dragon,Swamp_Of_Solitude
+Library_Of_Knowledge - Dinning_Of_King
+Prison_Of_Eternal_Dragon - Dinning_Of_King,Room_Of_Living_Armor,Swamp_Of_Solitude
+Garden_Of_Pain - Catacombs_Of_Horror
+Swamp_Of_Solitude - Catacombs_Of_Horror,Hall_Of_Infinity,Room_Of_Living_Armor,Prison_Of_Eternal_Dragon

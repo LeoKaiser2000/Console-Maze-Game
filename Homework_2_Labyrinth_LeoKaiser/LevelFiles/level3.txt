@@ -1,0 +1,14 @@
+#start-Occitanie
+#end-Grand_Est
+Ile-de-France - Centre-Val_de_Loire,Grand_Est,Hauts-de-France,Bourgogne-Franche-Comté,Normandie
+Centre-Val_de_Loire - Ile-de-France,Bourgogne-Franche-Comté,Normandie,Pays_de_la_Loire,Nouvelle-Aquitaine,Auvergne-Rhône-Alpes
+Grand_Est - Ile-de-France,Hauts-de-France,Bourgogne-Franche-Comté
+Hauts-de-France - Ile-de-France,Grand_Est,Normandie
+Bourgogne-Franche-Comté - Ile-de-France,Grand_Est,Centre-Val_de_Loire,Auvergne-Rhône-Alpes
+Normandie - Ile-de-France,Centre-Val_de_Loire,Hauts-de-France,Bretagne,Pays_de_la_Loire
+Bretagne - Normandie,Pays_de_la_Loire
+Pays_de_la_Loire - Bretagne,Normandie,Centre-Val_de_Loire,Nouvelle-Aquitaine
+Nouvelle-Aquitaine - Centre-Val_de_Loire,Pays_de_la_Loire,Auvergne-Rhône-Alpes,Occitanie
+Auvergne-Rhône-Alpes - Nouvelle-Aquitaine,Bourgogne-Franche-Comté,Centre-Val_de_Loire,Occitanie,Provence-Alpes-Côte_d'Azur
+Occitanie - Nouvelle-Aquitaine,Auvergne-Rhône-Alpes,Provence-Alpes-Côte_d'Azur
+Provence-Alpes-Côte_d'Azur - Auvergne-Rhône-Alpes,Occitanie

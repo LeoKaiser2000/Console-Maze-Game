@@ -1,0 +1,7 @@
+#start-A
+#end-E
+A - B
+B - A,C,D
+C - B,D,E
+D - B,C,E
+E - C,D
