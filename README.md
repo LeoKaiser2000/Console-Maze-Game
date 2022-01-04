@@ -132,7 +132,7 @@ Maze can be solved in 2 moves : France => UnatedStates => Croatia
 
 * Teacher can't end game
 
-*Note: As teacher did not already play, I can't be sure of anything. But I did some very nasty and big.*
+*Note: As teacher did not already play, I can't be sure of anything. But I did a nightmare one.*
 *Note: Because of level generator, game can be infinite*
 
 ### Other features that wasn't asked
@@ -159,4 +159,4 @@ Do not underestimate power of easy create new maze. Try new with location, space
 
 ### Nightmare maze
 
-Do not try the level names "Level???" - except if you are the grader ^^.
+Do not try the level names "levelNightmare" - except if you are the grader ^^.
