@@ -7,7 +7,7 @@ Console labyrinth project for school
 </h3>
 
 <p align='center'>
-<img src='/ReadmeAssets/AMAZEINGScreenShot.png'/>
+<img src='/ReadmeAssets/AMAZEINGScreenshot.png'/>
 </p>
 
 # Summary
